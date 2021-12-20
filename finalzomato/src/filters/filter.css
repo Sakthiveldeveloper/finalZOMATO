@@ -1,0 +1,27 @@
+
+.fontsize{
+    font-size:20px;
+    margin-top:5px;
+    color:#692B00
+   
+}
+.fontsize1{
+    font-size:20px;
+    margin-top:6px;
+    margin-left:-60px;
+    color:#B54B00;
+  }
+.radio{
+    margin-left:20px;
+    color:red
+}
+.cusineFilter{
+    margin-left: 20px;
+    color:black;
+}
+h3{
+    margin-left:-70px;
+}
+.h3{
+    margin-left:1px;
+}

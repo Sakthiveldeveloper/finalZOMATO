@@ -1,0 +1,414 @@
+body{
+    margin:auto
+}
+Header{
+    background-image: visible; ;
+}
+#main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#search{
+    background-image:linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707), url('https://i.ibb.co/2n32hSB/pexels-craig-dennis-899237.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:red;
+    background-size: 100% 500px;
+    width:100%;
+    height: 500px;
+    /*
+    border: 1px solid;
+    box-shadow: 5px 10px 5px lightsalmon inset;
+    /*
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    */
+}
+
+#login{
+    margin-left: 75%;
+    border: 1px;
+    display: inline-block;
+    margin-top: 18px;
+
+}
+
+#login> a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    border: 1px solid white;
+    box-shadow: 0px 3px 15px black;
+
+    padding: 8px;
+
+}
+#login a:hover{
+    color:red;
+    font-weight: bold;
+    background-color:white;
+    transform: scale(1.1)
+}
+#logo{
+    font-size:55px;
+    color:red;
+    text-align: center;
+    background-color:white;
+    height:110px;
+    margin-top: 40px;
+    width:110px;
+    margin-left: 42%;
+    border-radius: 50%;
+}
+
+#logo > span {
+    font-weight: bold;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 20px
+}
+
+#heading{
+    text-align: center;
+    color:white;
+    font-size:42px;
+    margin-top:30px;
+}
+#heading:hover{
+    color:red;
+}
+#dropdown{
+    width:75%;
+    border-radius: 35%;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+select{
+    width:25%;
+    text-align: center;
+    color:black;
+    font-size:17px;
+    background-color: whitesmoke;
+    height:58px;
+}
+select:hover{
+    color:blueviolet;
+    background-color:lightgoldenrodyellow
+}
+
+#dropdown option{
+    color: red;
+    font: 15px;
+    text-align: left;
+}
+#restaurants{
+    width:50%;
+}
+
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:lightgoldenrodyellow
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: lightsalmon
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: whitesmoke;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: lightslategrey;
+        
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: lightpink;
+    }
+    
+    #login
+    {
+        margin-left: 65%;
+        border: 1px;
+        display: inline-block;
+        margin-top: 18px;
+    
+    }
+    
+    #login> a{
+        text-decoration: none;
+        color:white;
+        font-size:14px;
+        border: 1px solid white;
+        box-shadow: 0px 3px 15px black;
+        padding: 8px;
+    }
+    #dropdown{
+        width:75%;
+        border-radius: 35%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+
+    select{
+        width:38%;
+        text-align: center;
+        color:black;
+        font-size:13px;
+        background-color: whitesmoke;
+        height:48px;
+    }
+ 
+
+    #dropdown option{
+        color:blue;
+        font: 15px;
+        text-align: left;
+    }
+    #restaurants{
+        width:55%;
+    }
+        
+    #logo{
+        font-size:40px;
+        color:red;
+        text-align: center;
+        background-color:white;
+        height:100px;
+        margin-top: 40px;
+        width:100px;
+        margin-left: 36%;
+        border-radius: 50%;
+    }
+
+    #logo > span {
+        font-weight: bold;
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 20px
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: lightgreen;
+    }
+    #login
+    {
+        margin-left: 60%;
+        border: 1px;
+        display: inline-block;
+        margin-top: 18px;
+    
+    }
+    
+    #login> a{
+        text-decoration: none;
+        color:white;
+        font-size:12px;
+        border: 1px solid white;
+        box-shadow: 0px 3px 15px black;
+        padding: 8px;
+    }
+    #dropdown{
+        width:75%;
+        border-radius: 35%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+
+    select{
+        width:46%;
+        text-align: center;
+        color:black;
+        font-size:13px;
+        background-color: whitesmoke;
+        height:48px;
+    }
+ 
+
+    #dropdown option{
+        color:blue;
+        font: 15px;
+        text-align: left;
+    }
+    #restaurants{
+        width:50%;
+    }
+        
+    #logo{
+        font-size:35px;
+        color:red;
+        text-align: center;
+        background-color:white;
+        height:80px;
+        margin-top: 40px;
+        width:80px;
+        margin-left: 36%;
+        border-radius: 50%;
+    }
+
+    #logo > span {
+        font-weight: bold;
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 18px
+    }
+
+}
+/*
+best - https://i.ibb.co/2n32hSB/pexels-craig-dennis-899237.jpg
+best - https://i.ibb.co/2n32hSB/pexels-craig-dennis-899237.jpg
+best - https://i.ibb.co/2n32hSB/pexels-craig-dennis-899237.jpg
+https://i.ibb.co/Yyyxsr3/pexels-kartik-kacha-2569760.jpg
+https://i.ibb.co/ysfX9J1/pexels-karolina-grabowska-5718104.jpg
+https://i.ibb.co/5hzvFS2/pexels-chan-walrus-958545.jpg
+https://i.ibb.co/6bWXxKM/pexels-chan-walrus-958546.jpg
+https://i.ibb.co/gJbF4yH/food-wallpaper.png
+-------------------------------------------------------
+https://i.ibb.co/gJbF4yH/food-wallpaper.png
+best-https://i.ibb.co/QCJTWD0/resturentbanner.jpg
+good-https://i.ibb.co/6bWXxKM/pexels-chan-walrus-958546.jpg
+best-https://i.ibb.co/5hzvFS2/pexels-chan-walrus-958545.jpg
+https://i.ibb.co/GsGH65P/pexels-edward-eyer-687824.jpg
+best-https://i.ibb.co/ysfX9J1/pexels-karolina-grabowska-5718104.jpg
+best- https://i.ibb.co/Yyyxsr3/pexels-kartik-kacha-2569760.jpg
+https://i.ibb.co/2sCkCwd/pexels-artem-beliaikin-929192.jpg
+best - https://i.ibb.co/2n32hSB/pexels-craig-dennis-899237.jpg
+https://i.ibb.co/FWbD0MF/pexels-4720191.jpg
+https://i.ibb.co/Kw34jZj/pexels-mali-maeder-929137.jpg
+*/
+
+
+/*
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:lightgoldenrodyellow
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: lightsalmon
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: whitesmoke;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: lightslategrey;
+        
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: lightpink;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: lightgreen;
+    }
+}
+
+*/
+/*
+body{
+    margin:auto
+}
+
+#main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#search{
+    background-image: url('https://i.ibb.co/0JYDkxR/Restaurant.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:red;
+    background-size: 100% 500px;
+    width:100%;
+    height: 500px;
+}
+
+#login{
+    margin-left: 70%;
+}
+
+#login> a{
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+}
+
+#logo{
+    font-size:90px;
+    color:red;
+    text-align: center;
+    background-color:white;
+    height:150px;
+    width:150px;
+    margin-left: 40%;
+    border-radius: 50%;
+    
+   
+}
+
+#logo > span {
+    font-weight: bold;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 10px
+}
+
+#heading{
+    text-align: center;
+    color:black;
+    font-size:35px;
+    margin-top:30px;
+}
+
+#dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 28%;
+    margin-top:-1%;
+}
+
+select{
+    height:50px;
+    width:30%;
+    font-size: 15px;
+    margin-top:5%;
+    padding-left:20px;
+    
+}
+
+#restaurants{
+    width:50%;
+}
+.heading{
+    color:white;
+    background-color:black;
+}
+*/

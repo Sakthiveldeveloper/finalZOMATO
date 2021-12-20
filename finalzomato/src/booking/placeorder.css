@@ -1,0 +1,20 @@
+.items{
+    float:left;
+    height:330px;
+    width:250px;
+    box-shadow: 0 5px 10px 0 gray;
+    margin:2%
+}
+
+.items img{
+    height: 220px;
+    width: 248px;
+}
+.items h3{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.items h4{
+    margin-left: 20px;
+    font-size: 16px;
+}
